@@ -1,0 +1,234 @@
+.__loginOut {
+  color: #007163;
+}
+
+.btn {
+  display: flex;
+}
+
+@media (max-width: 1050px) {
+  .btn {
+    display: none;
+  }
+}
+/*service*/
+.profile {
+  width: 100%;
+  margin: 60px 0;
+  color: #000000;
+}
+.profile-title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 53px;
+}
+.profile-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 370px auto;
+  grid: 80px;
+}
+.profile-content-card {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile-content-description {
+  width: auto;
+}
+
+.card-title {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.card-btn {
+  border: 1px solid #007163;
+  background: #007163;
+  border: 1px solid #007163;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 40px;
+}
+.card-btn a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.description-list {
+  padding: 20px;
+}
+.description-list ul {
+  display: flex;
+}
+.description-list ul a {
+  margin-right: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 22px;
+  color: #000000;
+}
+.description-list ul a:active {
+  border-bottom: 2px solid #007163;
+}
+.description-card {
+  width: 100%;
+  height: 82%;
+  border: 1px solid #D6D0C1;
+  padding: 20px;
+}
+.description-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  border-bottom: 1px solid #D6D0C1;
+}
+.description-card-text h4 {
+  color: #A67C52;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 24px;
+}
+.description-card-text p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+}
+.description-card-text p:last-child {
+  margin-bottom: 20px;
+}
+.description-card-list {
+  margin: 20px 0;
+}
+.description-card-list li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+.description-card-list li span {
+  color: #007163;
+}
+.description-card-list .activeLi {
+  color: #D6D0C1;
+}
+.description-card-list .activeLi span {
+  color: #D6D0C1;
+}
+.description-card-btn a {
+  border: 1px solid #007163;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #007163;
+}
+
+/*review*/
+.review {
+  width: 100%;
+  height: 100%;
+}
+.review-container {
+  max-width: calc(100% - 370px);
+  margin-left: auto;
+}
+.review-container-title {
+  display: flex;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.review-container-title h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+.review-container-title p {
+  margin: auto 0 auto auto;
+}
+.review-container-title span {
+  margin: auto 0;
+  border: 1px solid rgba(255, 255, 255, 0);
+  color: #FFC107;
+}
+.review-container-block {
+  width: 100%;
+  border: 1px solid #D6D0C1;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.review-container-block-subtitle p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media (max-width: 700px) {
+  .profile-content {
+    display: block;
+  }
+  .profile-content img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .review-container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.block-title {
+  display: grid;
+  grid-template-columns: 50px 100px 50px;
+  margin-bottom: 20px;
+}
+.block-title-avatar {
+  background: #007163;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.block-title-data {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.block-title-data date {
+  color: #A67C52;
+}
+.block-title-mark {
+  display: flex;
+}
+.block-title-mark p {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+}
+.block-title-mark span {
+  color: #FFC107;
+  font-size: 14px;
+}/*# sourceMappingURL=service-profile.css.map */
